@@ -23,7 +23,7 @@ public class Conexao {
 		}
 	}
 
-	public ConnectionFactory() {
+	public Conexao() {
 		this("estoque", "jdbc:mysql://localhost:3306/", "root", "123456789");
 	}
 
